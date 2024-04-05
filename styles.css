@@ -1,0 +1,171 @@
+:root{
+    --main-color: rgb(80,184,231);
+    --secondary-color: rgb(132,205,238);
+    --third-color: rgb(185,226,245);
+    --highlight-color: rgb(220,240,250);
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: white;
+}
+
+.left-side{
+    width: 40vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Sky.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo-Name{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(33,34,39);
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.Logo-Name > img{
+    opacity: 100%;
+}
+
+.Logo-Name > h1{
+    color: white;
+    opacity: 100%;
+    font-size: 7rem;
+    margin: 0;
+    margin-left: 3vw;
+}
+
+.credit{
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.credit > a{
+    color: white;
+}
+
+
+.right-side{
+    background-color: var(--main-color);
+    width: 60vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    
+}
+
+div.right-side > div > h1{
+    color: white;
+}
+
+div.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    font-size: 18px;
+    margin:0;
+    margin-top: 16px;
+}
+
+.form-container{
+    width: 100%;
+    color: white;
+}
+
+.user-info > div{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form{
+    width: 57vw;
+    padding-left: 3vw;
+    background-color: var(--secondary-color);
+}
+
+.form-title{
+    font-size: 3rem;
+    background-color: var(--secondary-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.user-info{
+    background-color: var(--secondary-color);
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+input{
+    font-size: 24px;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 24px;
+}
+
+input.validation-required:invalid{
+    border: solid 2px red;
+}
+
+input:focus{
+    border: solid 2px rgb(0,33,71);
+}
+
+.button-container{
+    background-color: var(--secondary-color);
+    padding-bottom: 30px;
+}
+
+.submit-button{
+    background-color: var(--third-color);
+    outline: none;
+    border: none;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.submit-button:hover{
+    background-color: var(--highlight-color);
+}
+
+.login-link{
+    color: rgb(189,212,231);
+    text-decoration: none;
+}
+
+.login-text{
+    margin-left: 3vw;
+}
+
+

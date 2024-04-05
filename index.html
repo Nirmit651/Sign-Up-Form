@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Sky</title>
+    <link rel="icon" type="image/x-icon" href="CloudIcon.png">
+    <link rel = "stylesheet" href="styles.css">
+    <script src="myscripts.js" defer></script>
+</head>
+<body>
+    <div class="left-side">
+        
+        <div class="Logo-Name">
+            <img src="CloudIcon.png" alt="Cloud Icon">
+            <h1>Sky</h1>
+
+        </div>
+        <p class="credit">Photo by <a href="https://unsplash.com/@taylorvanriper925">Taylor Van Riper</a> on
+            <a href="https://unsplash.com/photos/above-cloud-photo-of-blue-skies-yQorCngxzwI">Unsplash</a></p>
+    </div>
+
+    <div class="right-side">
+        <div class="sign-up-text">
+            <div class="dummy-text-one">
+            <h1>This is not a real online service! You know you need something like this 
+                in your life to help you realize your deepest dreams. Sign up <em>now</em> 
+                to get started.</h1>
+            </div>
+            <div class="dummy-text-two">
+            <h1>You <em>know</em> you want to.</h1>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form class="form">
+                <legend class="form-title">Let's Do This!</legend>
+                <div class="user-info">
+                    <div class="first-name">
+                        <label for="first_name">First Name</label>
+                        <input id="first_name" type="text" placeholder="John" name="first_name" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="last_name" type="text">Last Name</label>
+                        <input id="last_name" type="text" placeholder="Doe" name="last_name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input class="validation-required" id="email" type="email" placeholder="example@domain.com" 
+                        name="email" required>
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone_number">Phone Number</label>
+                        <input class="validation-required" id="phone_number" type="tel" placeholder="XXX-XXX-XXXX" 
+                        name="phone_number" required>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input class="validation-required" id="password" type="password" placeholder="Type Here" 
+                        name="password" required>
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input class="validation-required" id="confirm-password" type="text" placeholder="Type Here" 
+                        name="confirm-password" required>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="submit-button" type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+        <h1 class="login-text">Already have an account? <a class="login-link" href="#">Log in</a></p>
+    </div>
+
+
+</body>
+</html>
