@@ -3,6 +3,7 @@
     --secondary-color: rgb(132,205,238);
     --third-color: rgb(185,226,245);
     --highlight-color: rgb(220,240,250);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -127,7 +128,7 @@ div.sign-up-text > h1{
 }
 
 input{
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     outline: none;
     border: none;
@@ -135,7 +136,7 @@ input{
 }
 
 label{
-    font-size: 24px;
+    font-size: 19px;
 }
 
 input.validation-required:invalid{
