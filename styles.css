@@ -82,6 +82,13 @@ div.sign-up-text{
     display: flex;
     flex-direction: column;
     padding-left: 3vw;
+    margin:0;
+}
+
+div.sign-up-text > h1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
     font-size: 18px;
     margin:0;
     margin-top: 16px;
@@ -104,7 +111,7 @@ div.sign-up-text{
 }
 
 .form-title{
-    font-size: 3rem;
+    font-size: 24px;
     background-color: var(--secondary-color);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -151,7 +158,7 @@ input:focus{
     color: black;
     padding: 20px;
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 16px;
     border-radius: 5px;
 }
 
